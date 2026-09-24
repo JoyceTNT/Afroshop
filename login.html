@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Einloggen</title>
+  <link rel="stylesheet" href="log_reg.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+</head>
+<header>
+</header>
+<body>
+  <div class="thebox">
+  <h1>Loggen Sie sich ein</h1>
+  <form id="loginFormular" action="https://informatik.hs-bremerhaven.de/docker-swe2-2024-team17-web/cgi-bin/login.sh" method="GET">
+
+ <div class="icon">
+    <label for="username">Username</label>
+    <input type="text" id="username" name="username" value="Kevinng" ><i class="fa fa-user-circle"></i><br>
+    </div>
+
+    <div class="icon"><label for="enterpass">Passwort</label>
+    <input type="password" id="enterpass" name="enterpass" value="aaaaaa"><i class="fa fa-lock"></i><br>
+    </div>
+
+    <button type="submit">Einloggen</button>
+  </form>
+
+  <div>
+  <button id="toRegister">Noch kein Konto ? Registrieren</button>
+  </div>
+  <div>
+    <button id="toForgetPass">Passwort vergessen?</button>
+  </div>
+</div>
+  <script>
+    function zuRegister() {
+      window.location.href = 'register.html';
+    }
+
+    document.getElementById('toRegister').addEventListener('click',zuRegister);
+  </script>
+  <script src="log_reg.js"></script>
+
+</body>
+<footer>
+</footer>
+</html>

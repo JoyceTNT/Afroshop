@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <title> </title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link rel="stylesheet" href="kontakt.css">
+   <link rel="stylesheet" href="style1.css">
+  </head>
+  <body>
+    <header>
+        <div class="container">
+            <h1>Asia & Afrika Shop</h1>
+            <nav>
+                <ul>
+                    <li><a href="index1.html">Home</a></li>
+                    <li><a href="produkte.html">Produkte</a></li>
+                    <li><a href="bestellungen.html">Bestellungen</a></li>
+                    <li><a href="position.html">Position</a></li>
+                    <li><a href="ueber.html">Über uns</a></li>
+                    <li><a href="kontakt.html">Kontakt</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <form action="https://informatik.hs-bremerhaven.de/docker-swe2-2024-team17-web/cgi-bin/kontakt.sh" method="GET">
+      <h1>Uns kontaktieren</h1>
+      <div class="trennen"> </div>
+      <div class="koerper">
+        <div class="links">
+          <div class="box">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name">
+          <i class="fas fa-user"></i>
+          </div>
+          <div class="box">
+          <label for="adresse">E-mail Adresse</label>
+          <input type="text" id="adresse" name="adresse">
+          <i class="fas fa-envelope"></i>
+          </div>
+          <div class="box">
+          <label for="nummer">Telefonnummer</label>
+          <input type="text" id="nummer" name="nummer">
+          <i class="fas fa-mobile"></i></div>
+        </div>
+        <div class="rechts">
+          <div class="box">
+            <label for="nachricht">Nachricht</label>
+            <textarea placeholder="Lassen Sie hier ein Kommentar..." id="nachricht" name="nachricht"></textarea> </div>
+        </div>
+      </div>
+      <div class="ende" align="center">
+        <button type="submit">Nachricht senden</button>
+      </div>
+    </form>
+  </body>
+</html>
