@@ -1,0 +1,5 @@
+# Installierte Pakete (werden mit npm install neu erzeugt)
+node_modules
+
+# Geheime Konfiguration (Passwörter)
+.env
