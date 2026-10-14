@@ -1,7 +1,6 @@
-// React-Hook für den Zustand importieren
-import { useState } from 'react';
-// Produktdaten und Komponenten importieren
-import products from './data/products.js';
+// React-Hooks für Zustand und Nebeneffekte importieren
+import { useState, useEffect } from 'react';
+// Komponenten importieren
 import Header from './components/Header.jsx';
 import ProductCard from './components/ProductCard.jsx';
 import Cart from './components/Cart.jsx';
@@ -10,7 +9,29 @@ import './App.css';
 
 // Hauptkomponente definieren
 function App() {
+  const [products, setProducts] = useState([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
   const [cart, setCart] = useState([]);
+
+  // Produkte einmalig beim ersten Anzeigen der Seite vom Backend laden
+  useEffect(() => {
+    const loadProducts = async () => {
+      try {
+        const response = await fetch('/api/products');
+        if (!response.ok) {
+          throw new Error(`HTTP-Fehler ${response.status}`);
+        }
+        setProducts(await response.json());
+      } catch (err) {
+        console.error('Fehler beim Laden der Produkte:', err);
+        setError('Die Produkte konnten nicht geladen werden.');
+      } finally {
+        setLoading(false);
+      }
+    };
+    loadProducts();
+  }, []);
 
   // Artikel hinzufügen oder Menge erhöhen
   const addToCart = (product) => {
@@ -58,6 +79,8 @@ function App() {
       <Header totalItems={getTotalItems()} />
 
       <div className="product-grid">
+        {loading && <p>Produkte werden geladen …</p>}
+        {error && <p className="error-message">{error}</p>}
         {products.map((product) => (
           <ProductCard key={product.id} product={product} addToCart={addToCart} />
         ))}

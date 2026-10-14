@@ -3,6 +3,7 @@
 .app-container { padding: 20px; font-family: sans-serif; }
 .header { display: flex; justify-content: space-between; align-items: center; }
 .product-grid { display: flex; flex-wrap: wrap; }
+.error-message { color: #dc3545; font-weight: bold; }
 
 /* Styling der Produktkarten */
 .product-card { 
