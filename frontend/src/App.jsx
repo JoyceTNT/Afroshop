@@ -7,6 +7,13 @@ import Cart from './components/Cart.jsx';
 // Externe CSS-Datei einbinden
 import './App.css';
 
+// Live-Demo (GitHub Pages) oder vollständige Version mit Backend?
+const IS_DEMO = import.meta.env.VITE_DEMO === 'true';
+// Datenquelle: in der Demo eine statische JSON-Datei, sonst die API des Backends
+const PRODUCTS_URL = IS_DEMO
+  ? `${import.meta.env.BASE_URL}demo/products.json`
+  : '/api/products';
+
 // Hauptkomponente definieren
 function App() {
   const [products, setProducts] = useState([]);
@@ -14,11 +21,11 @@ function App() {
   const [error, setError] = useState(null);
   const [cart, setCart] = useState([]);
 
-  // Produkte einmalig beim ersten Anzeigen der Seite vom Backend laden
+  // Produkte einmalig beim ersten Anzeigen der Seite laden
   useEffect(() => {
     const loadProducts = async () => {
       try {
-        const response = await fetch('/api/products');
+        const response = await fetch(PRODUCTS_URL);
         if (!response.ok) {
           throw new Error(`HTTP-Fehler ${response.status}`);
         }
@@ -77,6 +84,13 @@ function App() {
   return (
     <div className="app-container">
       <Header totalItems={getTotalItems()} />
+
+      {IS_DEMO && (
+        <p className="demo-hint">
+          Live-Demo mit Beispieldaten. In der vollständigen Version kommen die Produkte
+          über eine Express-API aus einer MariaDB-Datenbank.
+        </p>
+      )}
 
       <div className="product-grid">
         {loading && <p>Produkte werden geladen …</p>}

@@ -4,6 +4,10 @@ Online-Shop für afrikanische und asiatische Lebensmittel, Getränke und Kosmeti
 
 Das Projekt ist 2024 als Teamprojekt im Modul *Software Engineering 2* an der Hochschule Bremerhaven entstanden. Seitdem entwickle ich es eigenständig weiter, mit einer modernen Full-Stack-Architektur aus React, Node.js/Express und MariaDB.
 
+**Live-Demo:** https://joycetnt.github.io/Afroshop/
+
+Die Live-Demo zeigt das Frontend mit statischen Beispieldaten, da GitHub Pages keine Server ausführt. In der vollständigen Version (siehe [Installation](#installation-und-start)) kommen die Produkte über die Express-API aus der MariaDB-Datenbank. Die Demo wird bei jedem Push automatisch per GitHub Actions gebaut und veröffentlicht.
+
 ## Funktionen
 
 - Produktkatalog mit 33 Produkten, die aus einer MariaDB-Datenbank geladen werden
@@ -18,7 +22,7 @@ Das Projekt ist 2024 als Teamprojekt im Modul *Software Engineering 2* an der Ho
 | Frontend | React 19, Vite, JavaScript, CSS |
 | Backend | Node.js, Express 5 |
 | Datenbank | MariaDB (SQL) |
-| Werkzeuge | Git, npm, oxlint |
+| Werkzeuge | Git, npm, oxlint, GitHub Actions (CI/CD), GitHub Pages |
 
 ## Architektur
 
@@ -43,7 +47,8 @@ Afroshop/
 ├── database/        SQL-Skripte
 │   ├── schema.sql           Datenbank und Tabellen
 │   └── sample-data.sql      Beispielprodukte
-└── schulversion/    Ursprüngliche Version aus dem Hochschulprojekt (HTML, CSS, JavaScript, Bash/CGI)
+├── schulversion/    Ursprüngliche Version aus dem Hochschulprojekt (HTML, CSS, JavaScript, Bash/CGI)
+└── .github/workflows/deploy-demo.yml   Automatische Veröffentlichung der Live-Demo
 ```
 
 ## Installation und Start

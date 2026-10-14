@@ -1,0 +1,233 @@
+[
+    {
+        "id": 1,
+        "name": "DAX Pomade Super Light",
+        "category": "Haarpflege & Kosmetik",
+        "price": 19.99,
+        "image": "/img/DAX_pomade_super_light.png"
+    },
+    {
+        "id": 2,
+        "name": "Comb Thru Extra Strength",
+        "category": "Haarpflege & Kosmetik",
+        "price": 6.99,
+        "image": "/img/comb_thru_extra_streng.png"
+    },
+    {
+        "id": 3,
+        "name": "Glow & Lovely",
+        "category": "Haarpflege & Kosmetik",
+        "price": 5.49,
+        "image": "/img/Glow_&_lovely.jpg"
+    },
+    {
+        "id": 4,
+        "name": "ORS Olive Oil",
+        "category": "Haarpflege & Kosmetik",
+        "price": 10.99,
+        "image": "/img/ORS_olive_oil.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Optimum Care Anti-Breakage Therapy",
+        "category": "Haarpflege & Kosmetik",
+        "price": 12.99,
+        "image": "/img/Optimum_car_anti_breakage_Therapy.jpg"
+    },
+    {
+        "id": 6,
+        "name": "TCB Hair Relaxer Regular",
+        "category": "Haarpflege & Kosmetik",
+        "price": 8.99,
+        "image": "/img/tcb_hair_relaxer_regular.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Capri-Sun",
+        "category": "Getränke",
+        "price": 0.99,
+        "image": "/img/Capri_sun.png"
+    },
+    {
+        "id": 8,
+        "name": "Foco Coconut Juice",
+        "category": "Getränke",
+        "price": 1.79,
+        "image": "/img/foco_coconut_juice.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Gua Guavennektar",
+        "category": "Getränke",
+        "price": 2.29,
+        "image": "/img/Gua_Guavennektar.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Panchy Guave",
+        "category": "Getränke",
+        "price": 1.49,
+        "image": "/img/Panchy-Guave.jpg"
+    },
+    {
+        "id": 11,
+        "name": "Vitamin C.C. Lemon",
+        "category": "Getränke",
+        "price": 1.99,
+        "image": "/img/vitamin_c.c._lemon.jpg"
+    },
+    {
+        "id": 12,
+        "name": "Teatra Lemon Green Tea",
+        "category": "Getränke",
+        "price": 1.49,
+        "image": "/img/teatra_lemon_green_tea.jpg"
+    },
+    {
+        "id": 13,
+        "name": "V Fresh Thai Tea",
+        "category": "Getränke",
+        "price": 1.69,
+        "image": "/img/v_Fresh_Thai_Tea.jpg"
+    },
+    {
+        "id": 14,
+        "name": "Fitne Herbal Tee",
+        "category": "Getränke",
+        "price": 14.99,
+        "image": "/img/Fitne_herbal_tee.png"
+    },
+    {
+        "id": 15,
+        "name": "Ingwer Tee von Hung Phat",
+        "category": "Getränke",
+        "price": 3.49,
+        "image": "/img/Ingwer_tee_von_Hung_Phat.jpg"
+    },
+    {
+        "id": 16,
+        "name": "Instant Ginger Tee",
+        "category": "Getränke",
+        "price": 3.99,
+        "image": "/img/Instant_ginger_tee.jpg"
+    },
+    {
+        "id": 17,
+        "name": "Dimes Sour Apple",
+        "category": "Süßwaren & Snacks",
+        "price": 4.99,
+        "image": "/img/dimes_sour_apple.jpg"
+    },
+    {
+        "id": 18,
+        "name": "Dimes Mango",
+        "category": "Süßwaren & Snacks",
+        "price": 4.99,
+        "image": "/img/dimes_mango.jpg"
+    },
+    {
+        "id": 19,
+        "name": "Chupa Chups Fraise",
+        "category": "Süßwaren & Snacks",
+        "price": 1.49,
+        "image": "/img/chupa_chups_fraise.jpg"
+    },
+    {
+        "id": 20,
+        "name": "Chio Tortillas Hot Chili",
+        "category": "Süßwaren & Snacks",
+        "price": 2.29,
+        "image": "/img/chio_tortillas_hot_chili.png"
+    },
+    {
+        "id": 21,
+        "name": "Vinamit Banana Chips 250g",
+        "category": "Süßwaren & Snacks",
+        "price": 3.99,
+        "image": "/img/Vinamit__Banana_chips_250g.jpg"
+    },
+    {
+        "id": 22,
+        "name": "Sweet Tamarind",
+        "category": "Süßwaren & Snacks",
+        "price": 2.99,
+        "image": "/img/Sweet_Tamarind.jpg"
+    },
+    {
+        "id": 23,
+        "name": "X.O Mango Slices in Syrup",
+        "category": "Süßwaren & Snacks",
+        "price": 2.79,
+        "image": "/img/x.o_Mango_Slices_in_Syrup.jpg"
+    },
+    {
+        "id": 24,
+        "name": "Hühnerbrühe Pulver Knorr 900g",
+        "category": "Lebensmittel",
+        "price": 2.49,
+        "image": "/img/Hühnerbrühe_Pulver_Knorr_900g.jpg"
+    },
+    {
+        "id": 25,
+        "name": "Healthy Boy Thai Sweet Chili Sauce",
+        "category": "Lebensmittel",
+        "price": 2.99,
+        "image": "/img/Healthy_Boy_thai_sweat_chili_sauce.jpg"
+    },
+    {
+        "id": 26,
+        "name": "Kewpie Mayonnaise 500ml",
+        "category": "Lebensmittel",
+        "price": 5.99,
+        "image": "/img/Kewpie_Mayonnaise_500ml.jpg"
+    },
+    {
+        "id": 27,
+        "name": "Lovely Millet Ground Bajra Flour 1kg",
+        "category": "Lebensmittel",
+        "price": 3.49,
+        "image": "/img/Lovely_Millet_ground_Bajra_flour_1kg.jpg"
+    },
+    {
+        "id": 28,
+        "name": "MP Sweet Beans 4kg",
+        "category": "Lebensmittel",
+        "price": 12.99,
+        "image": "/img/MP_sweat_beans_4kg.jpg"
+    },
+    {
+        "id": 29,
+        "name": "Marhaba Powder",
+        "category": "Lebensmittel",
+        "price": 3.99,
+        "image": "/img/Marhaba_Powder.jpg"
+    },
+    {
+        "id": 30,
+        "name": "Nestlé Golden Morn Mais & Soya Protein",
+        "category": "Lebensmittel",
+        "price": 7.99,
+        "image": "/img/Nestle_Golden_Morn_Mais_&_Soya_Protein.jpg"
+    },
+    {
+        "id": 31,
+        "name": "Royal Thai Jasmine Rice 4,5kg",
+        "category": "Lebensmittel",
+        "price": 11.99,
+        "image": "/img/Royal_Thai_Jasmine_rice_4,5kg.jpg"
+    },
+    {
+        "id": 32,
+        "name": "TOOBA Ginger Paste",
+        "category": "Lebensmittel",
+        "price": 2.49,
+        "image": "/img/TOOBA_ginger_paste.jpg"
+    },
+    {
+        "id": 33,
+        "name": "Yellow Gari VoltaQueen 1kg",
+        "category": "Lebensmittel",
+        "price": 4.49,
+        "image": "/img/Yellow_Gari_VoltaQueen_1kg.jpg"
+    }
+]

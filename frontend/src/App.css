@@ -4,6 +4,7 @@
 .header { display: flex; justify-content: space-between; align-items: center; }
 .product-grid { display: flex; flex-wrap: wrap; }
 .error-message { color: #dc3545; font-weight: bold; }
+.demo-hint { background-color: #fff3cd; border: 1px solid #ffe08a; border-radius: 6px; padding: 10px 15px; }
 
 /* Styling der Produktkarten */
 .product-card { 
