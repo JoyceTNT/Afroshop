@@ -2,7 +2,7 @@
 
 Online-Shop für afrikanische und asiatische Lebensmittel, Getränke und Kosmetik.
 
-Das Projekt ist 2024 als Teamprojekt im Modul *Software Engineering 2* an der Hochschule Bremerhaven entstanden. Seitdem entwickle ich es eigenständig weiter, mit einer modernen Full-Stack-Architektur aus React, Node.js/Express und MariaDB.
+Das Projekt ist 2024 als Teamprojekt im Modul *Software Engineering 2* an der Hochschule Bremerhaven entstanden. Ich habe es eigenständig weiterentwickelt und auf eine moderne Full-Stack-Architektur mit React, Node.js/Express und MariaDB umgestellt.
 
 **Live-Demo:** https://joycetnt.github.io/Afroshop/
 
@@ -10,7 +10,7 @@ Die Live-Demo zeigt das Frontend mit statischen Beispieldaten, da GitHub Pages k
 
 ## Funktionen
 
-- Produktkatalog mit 33 Produkten, die aus einer MariaDB-Datenbank geladen werden
+- Produktkatalog mit ungefähr 30 Produkten, die aus einer MariaDB-Datenbank geladen werden
 - REST-API für die Produkte (`GET /api/products`)
 - Warenkorb: Produkte hinzufügen und entfernen, Mengen und Gesamtpreis werden automatisch berechnet
 - Lade- und Fehleranzeige, falls das Backend nicht erreichbar ist
